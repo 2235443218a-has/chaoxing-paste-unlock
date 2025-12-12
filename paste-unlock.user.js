@@ -10,3 +10,27 @@
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
+// ↓↓↓↓↓ 下面是干活的代码 ↓↓↓↓↓
+
+(function() {
+    'use strict';
+
+    // 1. 先在控制台打印一句话，证明脚本活着
+    console.log("【解除限制脚本】已就绪，准备接管粘贴权限...");
+
+    // 2. 定义核心逻辑：谁敢拦我，我就让它闭嘴
+    var enablePaste = function(e) {
+        e.stopImmediatePropagation(); // 停止网页的拦截行为
+        return true;                  // 告诉浏览器：这事儿我说了算，允许通过
+    };
+
+    // 3. 给整个页面装上监控，专门盯着“粘贴”这件事
+    // 最后的 'true' 很重要，意思是“我比网页优先执行”
+    document.addEventListener('paste', enablePaste, true);
+    
+    // 4. 顺手把“复制”和“右键菜单”的限制也解除了（送给同学的福利）
+    document.addEventListener('copy', enablePaste, true);
+    document.addEventListener('contextmenu', enablePaste, true);
+
+    console.log("【解除限制脚本】执行完毕！限制已解除。");
+})();

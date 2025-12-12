@@ -8,4 +8,4 @@
 
 ## 安装方法
 1. 确保浏览器已安装 [Tampermonkey](https://www.tampermonkey.net/) 插件。
-2. [点击这里一键安装脚本](这里放入你的Raw链接)
+2. [点击这里一键安装脚本](https://github.com/2235443218a-has/---/raw/refs/heads/main/paste-unlock.user.js)
