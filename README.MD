@@ -32,7 +32,7 @@
 ### 第二步：安装脚本 (重点)
 👇 **点击下面的按钮即可一键安装：**
 
-### [👉 点击这里安装本脚本 (Install Script)](https://github.com/2235443218a-has/---/raw/refs/heads/main/paste-unlock.user.js)
+### [👉 点击这里安装本脚本 (Install Script)](https://github.com/2235443218a-has/chaoxing-paste-unlock/raw/refs/heads/main/paste-unlock.user.js)
 
 *(点击后会弹出黑色界面，点击“安装”即可)*
 
