@@ -1,11 +1,51 @@
-# 学习通解除粘贴限制脚本
+# 🚀 学习通/超星 粘贴限制解除助手 (Classroom Edition)
 
-这是一个专为咱们班同学开发的油猴脚本。
+![Version](https://img.shields.io/badge/Version-1.0-blue.svg?style=flat-square)
+![Author](https://img.shields.io/badge/Author-DayDayUp-orange.svg?style=flat-square)
+![Powered By](https://img.shields.io/badge/Script-Tampermonkey-green.svg?style=flat-square)
 
-## 功能
-- 🚫 去除输入框的“禁止粘贴”限制
-- ⚡️ 自动运行，无需手动输入代码
+> **✨ 一键解除禁止粘贴限制，让讨论作业不再手打！**
 
-## 安装方法
-1. 确保浏览器已安装 [Tampermonkey](https://www.tampermonkey.net/) 插件。
-2. [点击这里一键安装脚本](https://github.com/2235443218a-has/---/raw/refs/heads/main/paste-unlock.user.js)
+---
+
+## 📖 项目背景
+兄弟们，每次写讨论都要手打几百字是不是很崩溃？😡  
+学习通网页端的输入框禁止了 `Ctrl+V` 和 `右键菜单`，这个脚本就是为了解决这个反人类设计而生的。
+
+**简单、安全、开源，专为咱们班同学定制。**
+
+## ⚡️ 核心功能
+- ✅ **暴力解锁**：强制解除输入框的粘贴限制。
+- ✅ **全自动运行**：安装后无需设置，打开学习通自动生效。
+- ✅ **安全无毒**：代码完全开源，没有任何数据上传，放心使用。
+
+---
+
+## 💿 30秒安装教程
+
+### 第一步：准备工作
+你需要先给浏览器装一个“油猴”脚本管理器（如果已经有了，直接跳到第二步）。
+* 🧩 **Edge/Chrome 浏览器**：[点击安装 Tampermonkey 插件](https://www.tampermonkey.net/)
+
+### 第二步：安装脚本 (重点)
+👇 **点击下面的按钮即可一键安装：**
+
+### [https://github.com/2235443218a-has/---/raw/refs/heads/main/paste-unlock.user.js]
+
+*(点击后会弹出黑色界面，点击“安装”即可)*
+
+---
+
+## ❓ 常见问题 (Q&A)
+
+**Q: 安装后为什么没反应？**
+> **A:** 请按 `F5` 刷新一下学习通的页面！脚本只有在页面刷新后才会加载。
+
+**Q: 会被老师发现吗？**
+> **A:** 放心，这个脚本只是在你的浏览器本地运行，服务器那边看到的和你手打的一模一样。
+
+---
+
+## 👨‍💻 关于作者
+**Maintainer**: [2235443218a-has](https://github.com/2235443218a-has)
+如果觉得好用，记得在右上角点个 **Star ⭐️** 支持一下！
